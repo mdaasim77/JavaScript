@@ -1,4 +1,4 @@
-console.log("My name is Aasim");
+console.log("My name is Aasim ⭐");
 
 // ⭐ Basic Array Questions.....................................................
 
@@ -68,6 +68,7 @@ console.log("My name is Aasim");
 // }
 
 // console.log(rev);
+
 // ..............................................................................................................................................................................
 // ..............................................................................................................................................................................
 // ..............................................................................................................................................................................
@@ -124,7 +125,11 @@ console.log("My name is Aasim");
 
 // 14. Remove duplicates from an array.........................................................
 
-// let names = ["Aasim", "Bablu", "Submit", "Sahil", "Aakash", "ROhan", "Bunty"];
+// let num = [2, 2, 2, 5, 5, 5, 5, 2, 5, 115, 51, 21, 54, 1, 3, 84];
+
+// let uni = [...new Set(num)];
+
+// console.log(uni);
 
 // 15. Convert an array into a string using join().........................................................
 
@@ -132,3 +137,113 @@ console.log("My name is Aasim");
 
 // let res = names.join(", ");
 // console.log(res);
+
+// ..............................................................................................................................................................................
+// ..............................................................................................................................................................................
+// ..............................................................................................................................................................................
+
+// ⭐ Array of Objects Questions (React Style)
+
+// 16. Given a list of animals, Print only names using map().........................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// animals.map((value) => {
+//   console.log(value.name);
+// });
+
+// 17. Filter animals whose price is more than 10,000........................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// let cost = animals.filter((cost) => {
+//   return cost.price > 10000;
+// });
+
+// console.log(cost);
+
+// 18. Total price of all animals using reduce().........................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// let total = animals.reduce((acc, final) => {
+//   return acc + final.price;
+// }, 0);
+
+// console.log(total);
+
+// 19. Sort animals by price (low to high)......................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// let arrange = animals.sort((a, b) => a.price - b.price);
+
+// console.log(arrange);
+
+// 20. Add a new animal object.....................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// animals.push({ name: "Buffalo", price: 32000 });
+
+// console.log(animals);
+
+// 21. Delete an animal whose name is "Goat".....................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// let del = animals.filter((ani) => ani.name !== "Goat");
+
+// console.log(del);
+
+// 22. Double each number using map().........................................................
+
+// let animals = [
+//   { name: "Cow", price: 30000 },
+//   { name: "Goat", price: 8000 },
+//   { name: "Chicken", price: 500 },
+// ];
+
+// let pric = animals.map((double) => double.price * 2);
+
+// console.log(pric);
+
+// 23. Filter adults (age ≥ 18)........................................................
+
+// let ages = [12, 18, 20, 14, 30];
+
+// let adult = ages.filter((a) => a > 18);
+
+// console.log(adult);
+
+// 24. Return lengths of each string.....................................................
+
+// let fruits = ["apple", "banana", "mango"];
+
+// let str = fruits.map((value) => value.length);
+
+// console.log(str);
